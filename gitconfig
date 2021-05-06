@@ -1,10 +1,32 @@
+[alias]
+	gcheck='git checkout'
+	glo="git log --all --graph --decorate --oneline"
+	gmt='git mergetool'
+	s=source
+	gi='git init'
+	reload=". ~/.zshrc"
+	gclone='git clone' 
+	gbd='git branch -d'
+	gh='git help'
+	gbf='git branch -f'
+	grst='git reset'
+	grb='git rebase'
+	grvt='git revert'
+	gri='git rebase -i'
+	gca='git commit --amend'
+	gpl='git pull'
+	gps='git push'
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 [user]
-	name = <zhenghaoyu>
-	email = 861853976@qq.com
+	name = AccLoo0311
+	email = 1711186@mail.nankai.edu.cn
+	eamail = 861853976@qq.com
 [push]
 	default = simple
+
+[core]
+	excludesfile = /Users/zhenghaoyu/.gitignore_global

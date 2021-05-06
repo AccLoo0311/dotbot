@@ -111,16 +111,29 @@ alias gs='git status'
 alias gc='git commit'
 alias df='df -h'
 alias dc=cd
-alias .='cd .'
+
 alias ..='cd ..'
-alias d=cd
+alias c=cd
+alias gl="git log --all --graph --decorate"
+alias gcheck='git checkout'
+alias glo="git log --all --graph --decorate --oneline"
+alias gmt='git mergetool'
+alias s=source
+alias gi='git init'
+alias reload=". ~/.zshrc"
+alias .='cd .'
+alias gclone='git clone' 
+alias gbd='git branch -d'
+alias gh='git help'
+alias gbf='git branch -f'
+alias grst='git reset'
+alias grb='git rebase'
+alias grvt='git revert'
+alias gri='git rebase -i'
+alias gca='git commit --amend'
+alias gpl='git pull'
+alias gps='git push'
+alias sshkey='ssh-keygen -t rsa -C “171186@mail.nankai.edu.cn'
+alias bfg='java -jar ~/Downloads/bfg-1.14.0.jar'
 
 
-
-
-. /usr/bin/mouse.zsh
-bindkey -M emacs 'm' zle-toggle-mouse
-. /usr/bin/mouse.zsh
-bindkey -M emacs 'm' zle-toggle-mouse
-. /usr/bin/mouse.zsh
-bindkey -M emacs 'm' zle-toggle-mouse
